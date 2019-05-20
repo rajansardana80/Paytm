@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.selenium.qa.testcases.LoginPageTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.selenium.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginPageTestWithoutDataProvider"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTestWithdataProvider"/>
+        </methods>
+      </class> <!-- org.selenium.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.selenium.qa.testcases.LoginPageTest] -->
